@@ -44,7 +44,7 @@ public class gitHubFunctions extends BaseTest {
     }
     
     @Test(priority = 2, description = "validate Single repo in getfunction ")
-    public void validateSingleRepoInGetData() {
+    public void validateSingleRepoInGetData() { 
         Response singleRepo = apiHelper.getSingleRepo(repoName);
         GetResponsePojo getResponse = singleRepo.getBody().as(new TypeRef<GetResponsePojo>() {
         });
