@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T23:41:59 EDT" name="gitHub" finished-at="2024-03-20T23:42:05 EDT" duration-ms="5600">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T23:41:59 EDT" name="ApiTest" finished-at="2024-03-20T23:42:05 EDT" duration-ms="5600">
+      <class name="CURD.gitHubFunctions">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:41:59 EDT" name="beforeSuite" finished-at="2024-03-20T23:41:59 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:00 EDT" name="beforeClass" finished-at="2024-03-20T23:42:00 EDT" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateCreateRepo()[pri:0, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:00 EDT" name="validateCreateRepo" description="validate create repo in create function " finished-at="2024-03-20T23:42:03 EDT" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateRepo -->
+        <test-method signature="validateCreateRepoExistingName()[pri:1, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:03 EDT" name="validateCreateRepoExistingName" description="validate create existing repo in create function " finished-at="2024-03-20T23:42:03 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateRepoExistingName -->
+        <test-method signature="validateSingleRepoInGetData()[pri:2, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:03 EDT" name="validateSingleRepoInGetData" description="validate Single repo in getfunction " finished-at="2024-03-20T23:42:03 EDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleRepoInGetData -->
+        <test-method signature="validateSingleRepoWithNonExistingRepoNameInGetData()[pri:3, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:03 EDT" name="validateSingleRepoWithNonExistingRepoNameInGetData" description="validate Single repo in non existing repo name in getfunction " finished-at="2024-03-20T23:42:04 EDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleRepoWithNonExistingRepoNameInGetData -->
+        <test-method signature="validateGetAllRepoInGetData()[pri:4, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:04 EDT" name="validateGetAllRepoInGetData" description="validate All repo in getfunction " finished-at="2024-03-20T23:42:04 EDT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAllRepoInGetData -->
+        <test-method signature="validateUpdateRepo()[pri:5, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:04 EDT" name="validateUpdateRepo" description="validate update repo in update function " finished-at="2024-03-20T23:42:04 EDT" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdateRepo -->
+        <test-method signature="deleteRepo()[pri:6, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:04 EDT" name="deleteRepo" description="validate delete repo " finished-at="2024-03-20T23:42:05 EDT" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepo -->
+        <test-method signature="deleteRepoWithNonexistingName()[pri:7, instance:CURD.gitHubFunctions@78123e82]" started-at="2024-03-20T23:42:05 EDT" name="deleteRepoWithNonexistingName" description="validate delete non existing repo " finished-at="2024-03-20T23:42:05 EDT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepoWithNonexistingName -->
+      </class> <!-- CURD.gitHubFunctions -->
+    </test> <!-- ApiTest -->
+  </suite> <!-- gitHub -->
+</testng-results>
